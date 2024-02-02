@@ -1,0 +1,122 @@
+.content {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/052/645/660/large/chrysope-battle-background-new.jpg?1660313453");
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    height: calc(100% - 100px);
+    /* background-position: center 65%; */
+    /* background-size:100% auto; */
+    padding: 100px;
+}
+/* NO PADDING IN SINGLE DIRECTIONS */
+.topPokemon{
+    height: 300px;
+    /* margin-left: 40%; */
+    margin: 0 calc(60% - 300px);
+    /* calc can have variables added to them to change multiple sizes for media queries */
+}
+.bottomPokemon{
+    height: 300px;
+    margin: auto;
+    /* padding-left: 100; */
+}
+.button {
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border: 1px black;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px rgb(116, 251, 116);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-shadow: 0px 0px 50px rgba(104, 73, 230, 0.316);
+    text-transform: capitalize;
+}
+
+.topTrainer {
+    display: flex;
+    /* justify-content: space-around; */
+    /* height: 50%; */
+}
+
+.bottomTrainer {
+    display: flex;
+    /* justify-content: center; */
+    /* height: 50%; */
+}
+.eachPokeName{
+    text-transform: capitalize;
+}
+.clickables {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.moves {
+    /* background-color: yellow; */
+    font-size: larger;
+    /* height: 100px; */
+    display: flex;
+    /* color: black;
+    text-shadow: white; */
+    width: 300px;
+    height: 150px;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin: auto;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal{
+    background-color: rgb(236, 52, 52);
+    color: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.modalButton{
+    margin: 1rem;
+    padding: 10px;
+    width: 150px; 
+}
+.modalText{
+    margin: 3rem;
+    padding:10px
+}
+
+.clickShrink {
+    background: white(116, 251, 116);
+}
+
+.clickShrink:active {
+    transform: scale(0.9);
+}
+progress {
+    -webkit-appearance: none;
+}
+::-webkit-progress-value {
+    background-color: green;
+}
+::-webkit-progress-bar {
+    background-color: rgb(236, 52, 52);
+}
+
+::-webkit-progress-inner-element {
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px black;
+}

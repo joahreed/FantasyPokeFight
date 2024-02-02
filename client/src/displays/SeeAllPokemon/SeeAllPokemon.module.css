@@ -1,0 +1,58 @@
+/* *{
+    outline: 1px  dotted rgb(0, 248, 0);
+} */
+
+.allPokemon{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* width: fit-content; */
+    padding: 1rem;
+    align-items: center;
+    width: 400px;
+    /* width: 100%; */
+}
+/* NEVER PICK HTML BASED ON STYLE */
+.list{
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    /* text-shadow: -2px 2px 0px black; */
+    /* padding: 50px; */
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    /* width: 100%; */
+}
+.spriteSize{
+    height: 100px;
+    /* padding: 1rem; */
+}
+
+.allStats{
+    height: 200px;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem
+}
+/* .eachStat{
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+} */
+.pagination{
+    margin-left: 40%;
+}
+.pagination a {
+    background-color: #ee4035;
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a:hover:not(.active) {background-color: silver;}

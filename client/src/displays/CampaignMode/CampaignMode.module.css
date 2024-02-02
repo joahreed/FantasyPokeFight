@@ -1,0 +1,40 @@
+.content{
+    padding: 20px;
+    background-color: #e65c53;
+
+}
+.gymLeaders{
+    /* height: 200px; */
+    width: 300px;
+}
+.sprite{
+    height: 150px;
+    /* box-shadow: 0px 1px 100px black; */
+}
+.button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #3a68c8;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 15%;
+    gap: 0.5rem;
+}
+.eachTrainer{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 90px rgba(232, 7, 7, 0.676);
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+.allGymLeaders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 0.5rem;
+}
+.leaderName{
+    width: 100px;
+}

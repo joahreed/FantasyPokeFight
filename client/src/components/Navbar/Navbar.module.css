@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+.flex{
+    display: flex;
+    background-color: #ee4035;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.485);
+    position: sticky;
+    top: 0;
+}
+.logo{
+    height:100px; 
+}
+.spacing {
+    justify-content: space-between;
+}
+.title{
+    /* color: #F3CC49; */
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: -2px 2px 0px black;
+    /* font-family: 'Pokemon Solid', sans-serif; */
+    /* text-shadow: -5px 2px 0px #212e60;
+    -webkit-text-stroke: 1px #4d6fa8; */
+}
+.link {
+    text-decoration: none;
+}
+.button{
+    padding: 2px 5px;
+    /* margin-left: 120px; */
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.485);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.246);
+}
+.landingPageTitle{
+    height: 70px;
+}

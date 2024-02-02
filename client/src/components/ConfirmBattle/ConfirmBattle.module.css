@@ -1,0 +1,57 @@
+.horizontalBanner{
+    /* transform: scale(1); */
+    object-fit: cover;
+    height: 100px;
+    /* margin-top: 60px;
+    margin-bottom: 10px; */
+    /* width: 100%; */
+    /* object-position: center; */
+    /* align-items: center; */
+    margin: 4.4rem 0;
+}
+.sprites{
+    height: 200px;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.095); */
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px 1px black;
+    border-radius: 50%;
+}
+.eachTeam{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: #ee4035;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0.5px solid rgb(165, 12, 12);
+    box-shadow: 1px 3px 10px rgba(232, 7, 7, 0.676);
+    font-size: larger;
+    text-shadow: -2px 2px 0px black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+.content{
+    /* margin: 0 auto; */
+    /* height: 100%; */
+    background-image: url("https://preview.redd.it/er9tzxp35ts71.png?width=640&crop=smart&auto=webp&s=573ff7ee556c220f318193eddfb560abb71ae512");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 65%;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    gap: 2rem; */
+}
+.enemyTrainerName{
+    background-color: rgba(43, 15, 15, 0.657);
+    padding: 5px 5px 5px;
+    border: 1px black;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+/* box-shadow:0 0 5px black; */

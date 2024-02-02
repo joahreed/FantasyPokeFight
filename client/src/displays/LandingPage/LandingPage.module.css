@@ -1,0 +1,60 @@
+.color{
+    /* background-color: #3B4CCA; */
+    color: white;
+    background-color: #3B4CCA;
+}
+.topBox{
+    height: 400px;
+    padding: 3rem 12rem;
+    gap: 15rem;
+    justify-content: space-around;
+}
+.createBoxText{
+    /* background-color: #6CB4EE; */
+    color: white;
+    border-radius: 25px;
+    flex: 1;
+    /* padding: 5px; */
+    font-size: larger;
+    line-height: 2.5;
+    text-shadow: -2px 2px 0px black;
+}
+/* background-color: #B3A125; */
+.innerCreateBoxText{
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.flex{
+    display: flex;
+}
+.createTeamButton{
+    /* padding-left: 300px;
+    padding-top: 70px; */
+    flex: 1;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.actualCreateTeamButton{
+    background-color: #ee4035;
+    color: white;
+    padding: 10px 20px;
+    /* margin-left: 120px; */
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid rgba(0, 0, 0, 0.168);
+    text-shadow: -2px 2px 0px black;
+}
+.landingbanner{
+    width: 1665px;
+}
+.teamOfPokemon{
+    height: 250px;
+}
+.hrtag{
+    clear: both;
+    visibility: hidden;
+}

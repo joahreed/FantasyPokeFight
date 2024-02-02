@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+}
+body{
+    max-width: 100vw;
+    box-sizing: border-box;
+    background-color: #3B4CCA;
+    color: white;
+    text-shadow: -2px 2px 0px black;
+
+}
+#root{
+    max-width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
