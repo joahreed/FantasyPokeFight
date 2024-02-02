@@ -213,6 +213,9 @@ function DisplayBattle() {
                 <p className={styles.modalText}>You have {isGameOver} the game!</p>
                 {/* you can only have auto focus on in the modal */}
             </dialog>
+            {/* <div>
+
+            </div> */}
         </div>
     )
 }
